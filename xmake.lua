@@ -2,10 +2,12 @@ add_rules("mode.debug", "mode.release")
 add_includedirs("include")
 target("Server")
     set_kind("binary")
-    add_files("src/server.cpp")
+    add_files("src/server/server.cpp")
+    add_files("src/*.cpp")
 target("Client")
     set_kind("binary")
-    add_files("src/client.cpp")
+    add_files("src/client/client.cpp")
+    add_files("src/*.cpp")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --
