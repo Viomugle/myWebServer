@@ -1,9 +1,9 @@
-#include <iostream>
+#include "EventLoop.hpp"
+#include "Server.hpp"
 
-using namespace std;
-
-int main(int argc, char** argv)
-{
-    cout << "hello world!" << endl;
+int main() {
+    EventLoop *loop = new EventLoop();
+    Server *server = new Server(loop);
+    loop->loop();
     return 0;
 }
