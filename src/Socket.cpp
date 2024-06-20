@@ -1,5 +1,5 @@
 #include "Socket.hpp"
-#include "tools.hpp"
+#include "tools.h"
 #include <unistd.h>
 #include <fcntl.h>
 #include <sys/socket.h>

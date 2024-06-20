@@ -1,9 +1,4 @@
-/******************************
-*   author: yuesong-feng
-*   
-*
-*
-******************************/
+
 #pragma once
 #include <functional>
 #include <vector>

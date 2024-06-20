@@ -1,7 +1,8 @@
+#pragma once
 #include <iostream>
 #include <unistd.h>
 #include <string.h>
-#include "tools.hpp"
+#include "tools.h"
 #include "Buffer.hpp"
 #include "Socket.hpp"
 

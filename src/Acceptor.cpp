@@ -1,9 +1,4 @@
-/******************************
-*   author: yuesong-feng
-*   
-*
-*
-******************************/
+
 #include "Acceptor.hpp"
 #include "Socket.hpp"
 #include "Channel.hpp"

@@ -1,7 +1,7 @@
 #include "EventLoop.hpp"
 #include "Epoll.hpp"
 #include "Channel.hpp"
-#include "tools.hpp"
+#include "tools.h"
 #include <vector>
 EventLoop::EventLoop():ep(new Epoll()),quit(false)
 {
